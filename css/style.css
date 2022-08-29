@@ -1,51 +1,181 @@
-.Principal
+.Dashboard
 {
-    display: flex;
-    /* flex-direction: row; */
-    background-color: #371B58;
+    background-color: #eee;
+
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
     width: 100vw;
     height: 100vh;
 
-    position: absolute;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftbar
+{
+    background: rgb(0,212,255);
+    background: linear-gradient(rgba(0,212,255,1) 0%, rgba(193,193,193,1) 79%);
+
+    width: 5.5vw;
+    height: 100vh;
 
     top: 0;
     left: 0;
 
-    justify-content: center;
-    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.Login
+#leftDashboard
 {
-background-color: #4C3575;
+    padding: 2.5vh;
 
-width: 50vw;
-height: 75vh;
+    display: flex;
+    flex-direction: column;
 
-display: flex;
-align-items: center;
-/* justify-content: center; */
-flex-direction: row;
-
-border-radius: 1rem;
-
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 5vh;
 }
 
-.esquerdaLogin
+#leftDashboard .top
 {
-    padding-left: 2.5vw;
+    background-color: white;
+
+    width: 15vw;
+    height: 30vh;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
 }
 
-.conteudoEsquerdaLogin
+#leftDashboard .bottom
 {
-    background-color: #3F3351;
+    background-color: white;
 
-    height: 65vh;
+    width: 15vw;
+    height: 60vh;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
+}
+
+#centerDashboard
+{
+    padding: 2.5vh;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 5vh;
+}
+
+#centerDashboard .top
+{
+    display: flex;
+    flex-direction: row;
+
+    gap: 2.5vh;
+}
+
+#centerDashboard .top_left
+{
+    background-color: white;
 
     width: 25vw;
+    height: 30vh;
 
-    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
+}
+
+#centerDashboard .top_right
+{
+    background-color: white;
+
+    width: 25vw;
+    height: 30vh;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
+}
+
+#centerDashboard .center
+{
+    background-color: white;
+
+    width: 51.25vw;
+    height: 55vh;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
+}
+
+#centerDashboard .bottom
+{
+    background-color: white;
+
+    width: 51.25vw;
+    height: 55vh;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
+}
+
+#rightDashboard
+{
+    padding: 2.5vh;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 5vh;
+}
+
+#rightDashboard .top
+{
+    background-color: white;
+
+    width: 15vw;
+    height: 55vh;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
+}
+
+#rightDashboard .bottom
+{
+    background-color: white;
+
+    width: 15vw;
+    height: 35vh;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+    border-radius: 2.5vh;
+}
+
+.leftbar li
+{
+    list-style-type: none;
+    color: white;
+
+    padding-top: 2.5vh;
+}
+
+.leftbar li:hover
+{
+    background-color: white;
+    border-radius: 1vh;
+    color: #00d4ff;
+    left: 0;
 }
