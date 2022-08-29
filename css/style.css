@@ -1,0 +1,15 @@
+#Principal
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#Esquerda
+{
+    box-shadow: 1px black;
+}
+
+#Direita
+{
+
+}
