@@ -1,16 +1,51 @@
-#Principal
+.Principal
 {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    background-color: #371B58;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    margin: auto;
+
+    top: 0;
+    left: 0;
+
+    justify-content: center;
+    align-items: center;
 }
 
-#Esquerda
+.Login
 {
-    box-shadow: 1px black;
+background-color: #4C3575;
+
+width: 50vw;
+height: 75vh;
+
+display: flex;
+align-items: center;
+/* justify-content: center; */
+flex-direction: row;
+
+border-radius: 1rem;
+
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-#Direita
+.esquerdaLogin
 {
-    box-shadow: 1px black;
-    box-shadow: 1px black;
+    padding-left: 2.5vw;
+}
+
+.conteudoEsquerdaLogin
+{
+    background-color: #3F3351;
+
+    height: 65vh;
+
+    width: 25vw;
+
+    border-radius: 1rem;
 }
